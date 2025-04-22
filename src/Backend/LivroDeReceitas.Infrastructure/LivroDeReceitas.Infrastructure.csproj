@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Projeto1\LivroDeReceitas\LivroDeReceitas.Domain\LivroDeReceitas.Domain.csproj" />
+    <ProjectReference Include="..\LivroDeReceitas.Domain\LivroDeReceitas.Domain\LivroDeReceitas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
